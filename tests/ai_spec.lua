@@ -1,0 +1,6 @@
+describe("pohelper.ai", function()
+	it("should have a function to run prompt on selection", function()
+		local ai = require("pohelper.ai")
+		assert.is_function(ai.run_prompt_on_selection)
+	end)
+end)

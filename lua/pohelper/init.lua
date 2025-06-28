@@ -56,7 +56,7 @@ function M.new_pbi()
 		input:on(event.BufLeave, function()
 			input:unmount()
 		end, { once = true })
-		end
+	end
 
 	show_input()
 end
@@ -115,7 +115,7 @@ function M.new_meeting()
 		input:on(event.BufLeave, function()
 			input:unmount()
 		end, { once = true })
-		end
+	end
 
 	show_input()
 end
